@@ -1,0 +1,222 @@
+body
+{
+	font-size: .16rem;
+	color: #bfc0c3;
+	
+}
+
+header
+{
+	width: 100%;
+	height: 1rem;
+	background: #53545e;
+	box-sizing: border-box;
+	padding: .33rem .3rem .31rem;
+}
+
+header>div
+{
+	width: 100%;
+	height: 100%;
+	background: url(../img/header.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.container
+{
+	width: 5.4rem;
+	margin: 0 auto;
+}
+
+.container .banner
+{
+	width: 100%;
+	height: 2.5rem;
+	margin-top: .3rem;
+	background: url(../img/banner.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.container .content
+{
+	width: 100%;
+	letter-spacing: .02em;
+}
+
+h2
+{
+	height: .48rem;
+	color: #53545e;
+	font-size: .18rem;
+	font-weight: bold;
+	line-height: .48rem;
+	text-transform: uppercase;
+}
+
+p
+{
+	font-size: .14rem;	
+	line-height: .2rem;
+}
+
+.btn
+{
+	width: .79rem;
+	height: .36rem;
+	background: #53545e;
+	text-align: center;
+	line-height: .36rem;
+	margin: .16rem .02rem .3rem;
+}
+
+hr
+{
+	background: #eaeaea;
+	margin: 0;
+}
+
+.container .detail
+{
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: .3rem;
+}
+
+.container .detail>div
+{
+	float: left;
+	width: 2.55rem;
+}
+
+.container .detail>div.left
+{
+	margin-right: .3rem;
+}
+
+.container .detail>div .pic
+{
+	width: 100%;
+	height: 1.2rem;
+}
+
+.container .detail>div .pic img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.container .adGroup
+{
+	width: 100%;
+	box-sizing: border-box;
+	padding: .3rem 0;
+}
+
+.container .adGroup>div
+{
+	float: left;
+	width: 1.6rem;
+	height: 1.6rem;
+	background: #BFC0C3;
+	margin-right: .3rem;
+}
+
+.container .adGroup>div img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.container .adGroup>div:last-child
+{
+	margin: 0;
+}
+
+footer
+{
+	width: 100%;
+}
+
+footer>div
+{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 .3rem;
+	background: #f1f1f1;
+}
+
+footer>div h2
+{
+	float: left;
+	width: 35%;
+}
+
+footer ul
+{
+	height: .48rem;
+	width: 65%;
+	float: right;
+	list-style-type: none;
+	box-sizing: border-box;
+	padding: .16rem 0;
+}
+
+footer ul li
+{
+	float: right;
+	width: .22rem;
+	height: .22rem;
+	border-radius: 50%;
+	background: #e1e1e1;
+	color: #53545e;
+	margin-left: .2rem;
+	text-align: center;
+	line-height: .22rem;
+}
+
+footer .content
+{
+	background: #53545e;
+	padding: .25rem .3rem;
+}
+
+footer .content>div
+{
+	width: 100%;
+	height: .26rem;
+	color: #fff;
+}
+
+footer .content>div span
+{
+	height: 100%;
+	line-height: .26rem;
+	font-size: .14rem;
+}
+
+footer .content>div span:last-child
+{
+	float: right;
+}
+
+footer hr
+{
+	background: #a6a7b0;
+}
+
+footer .foot
+{
+	background: #53545e;
+	height: .5rem;
+}
+
+footer .foot>span
+{
+	height: 100%;
+	line-height: .5rem;
+}
+
+footer .foot>span:last-child
+{
+	float: right;
+}
